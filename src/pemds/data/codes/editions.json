@@ -1,0 +1,35 @@
+{
+  "provenance": {
+    "source": "PEMDS project configuration",
+    "edition": "2026-10-06",
+    "clause": "n/a",
+    "licence": "Project-authored configuration; contains no third-party content",
+    "transcribed_on": "2026-10-06",
+    "checked_by": "project decision D1",
+    "source_tag": null
+  },
+  "editions": {
+    "ASME BPVC Section VIII, Division 1": "2023",
+    "ASME BPVC Section II, Part D": "2023",
+    "ASME B16.5": "2020",
+    "ASME B16.47": "2020",
+    "ASME B16.20": "2020",
+    "ASME B31.3": "2022",
+    "ASME B31.1": "2022",
+    "API 650": "13th",
+    "API 620": "12th",
+    "API 610 / ISO 13709": "11th",
+    "API 682": "4th",
+    "TEMA Standards": "10th",
+    "ASCE/SEI 7": "7-22",
+    "AISC 360": "360-22",
+    "ACI 318": "318-19",
+    "ANSI/HI 9.6.1": "2022",
+    "ISO 281": "2007",
+    "NEMA MG-1": "2021",
+    "NACE MR0175 / ISO 15156": "2020",
+    "WRC Bulletin 107/297": "1979/1987",
+    "CoolProp": "6.8.0",
+    "NIST Chemistry WebBook": "SRD 69"
+  }
+}

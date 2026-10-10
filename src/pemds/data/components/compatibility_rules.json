@@ -1,0 +1,79 @@
+{
+  "provenance": {
+    "source": "PEMDS fluid-material compatibility rules (engineering heuristics)",
+    "edition": "2026-10",
+    "clause": "screening rules referencing NACE MR0175 / ASME VIII-1 UCS-66 topics",
+    "licence": "Project-authored heuristic screening rules; not qualified metallurgical advice",
+    "transcribed_on": "2026-10-09",
+    "checked_by": "UNVERIFIED - engineering heuristics pending review by a materials engineer",
+    "source_tag": "S14"
+  },
+  "rules": [
+    {
+      "id": "chloride-scc-austenitic",
+      "fluid_keywords": ["chloride", "brine", "sea water", "seawater", "nacl", "saline"],
+      "material_groups": ["austenitic"],
+      "min_temperature_c": 60.0,
+      "message": "Chloride-bearing service at elevated temperature can cause chloride stress-corrosion cracking of austenitic stainless steels.",
+      "rationale": "Austenitic grades are susceptible to chloride SCC above roughly 60 degC; consider duplex, higher-Mo grades or a coating/inhibitor.",
+      "source_tag": "S14"
+    },
+    {
+      "id": "sour-service",
+      "fluid_keywords": ["hydrogen sulfide", "h2s", "sour", "sulphur", "sulfur"],
+      "material_groups": [],
+      "message": "Wet H2S service triggers sour-service requirements; hardness and material selection must comply with the sour-service standard.",
+      "rationale": "Sulfide stress cracking risk; confirm material hardness limits and qualification per NACE MR0175 / ISO 15156.",
+      "source_tag": "S14"
+    },
+    {
+      "id": "acid-hf",
+      "fluid_keywords": ["hydrofluoric", "hf"],
+      "material_groups": ["carbon steel", "austenitic"],
+      "message": "Hydrofluoric acid service requires special material and post-weld heat-treatment review.",
+      "rationale": "HF causes severe corrosion and hydrogen damage; Monel or specialised alloys and PWHT are typically required.",
+      "source_tag": "S14"
+    },
+    {
+      "id": "acid-hcl",
+      "fluid_keywords": ["hydrochloric", "hcl", "hydrogen chloride", "chlorhydric"],
+      "material_groups": ["carbon steel", "austenitic"],
+      "message": "Hydrochloric acid service is aggressive to carbon and many stainless steels; review alloy selection and corrosion allowance.",
+      "rationale": "HCl attacks carbon steel and pitting/crevice corrosion is a risk for austenitic grades; non-metallic lining or higher alloys may be needed.",
+      "source_tag": "S14"
+    },
+    {
+      "id": "ammonia-copper",
+      "fluid_keywords": ["ammonia", "nh3"],
+      "material_groups": ["copper", "brass", "bronze", "cupronickel"],
+      "message": "Ammonia service attacks copper-based alloys (stress-corrosion cracking of brass/bronze).",
+      "rationale": "Ammonia complexes copper; copper alloys must be avoided in ammonia service.",
+      "source_tag": "S14"
+    },
+    {
+      "id": "caustic-carbon-steel",
+      "fluid_keywords": ["caustic", "sodium hydroxide", "naoh", "potassium hydroxide", "koh", "lye"],
+      "material_groups": ["carbon steel"],
+      "message": "Caustic service can cause caustic stress-corrosion cracking of carbon steel; post-weld heat treatment and stress relief review required.",
+      "rationale": "Concentrated caustic at elevated temperature embrittles unrelieved carbon steel; PWHT reduces residual stress.",
+      "source_tag": "S1"
+    },
+    {
+      "id": "carbon-steel-low-temperature",
+      "fluid_keywords": [],
+      "material_groups": ["carbon steel"],
+      "temperature_below_c": -29.0,
+      "message": "Carbon steel below the minimum design metal temperature is a brittle-fracture risk; impact testing or a low-temperature material is required.",
+      "rationale": "The impact-test exemption curves limit carbon steel use at low temperature; select impact-tested or austenitic material.",
+      "source_tag": "S1"
+    },
+    {
+      "id": "water-carbon-steel-corrosion",
+      "fluid_keywords": ["water", "steam condensate"],
+      "material_groups": ["carbon steel"],
+      "message": "Water service can corrode carbon steel; corrosion allowance and/or water treatment must be specified.",
+      "rationale": "Wet carbon steel corrodes; without treatment or a corrosion allowance the design life is not met.",
+      "source_tag": "S1"
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "provenance": {
+    "source": "ASME BPVC Section II, Part D; Indian Standards IS 2002:1962 / IS 2041:1962 / IS 1570:1961 (demonstration subset)",
+    "edition": "2023",
+    "clause": "Subpart 1, Mandatory Appendix 1 (design stress values); IS pressure-vessel plate grades and generic carbon/Cr-Mo/Cr-Ni categories added as a demonstration subset",
+    "licence": "Values transcribed in minimal form with provenance; ASME text and tables are not reproduced. The IS-grade allowable stresses are demonstration mappings to equivalent ASME materials, not transcribed IS values. Verify against the licensed editions before production use.",
+    "transcribed_on": "2026-10-06",
+    "checked_by": "UNVERIFIED - demonstration set pending transcription from licensed II-D; IS 2002/2041/1570 allowable stresses are engineering mappings pending licensed data",
+    "source_tag": "S2"
+  },
+  "materials": [
+    {
+      "key": "SA-516-70",
+      "name": "Carbon steel plate, SA-516 Gr. 70",
+      "specification": "SA-516 Gr. 70",
+      "group": "carbon steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 138.0], [343.0, 138.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 260.0,
+      "tensile_MPa": 485.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "SA-106-B",
+      "name": "Carbon steel pipe, SA-106 Gr. B",
+      "specification": "SA-106 Gr. B",
+      "group": "carbon steel",
+      "allowable_stress_MPa": [[-29.0, 118.0], [100.0, 118.0], [200.0, 118.0], [300.0, 118.0], [343.0, 118.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 240.0,
+      "tensile_MPa": 415.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "SA-240-304",
+      "name": "Austenitic stainless steel plate, SA-240 Type 304",
+      "specification": "SA-240 Type 304",
+      "group": "austenitic stainless",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 130.0], [300.0, 122.0], [400.0, 115.0], [450.0, 110.0]],
+      "modulus_GPa": [[21.0, 195.0], [100.0, 191.0], [200.0, 183.0], [300.0, 175.0], [400.0, 167.0], [450.0, 163.0]],
+      "yield_MPa": 205.0,
+      "tensile_MPa": 515.0,
+      "density_kg_m3": 8000.0
+    },
+    {
+      "key": "SA-240-316",
+      "name": "Austenitic stainless steel plate, SA-240 Type 316",
+      "specification": "SA-240 Type 316",
+      "group": "austenitic stainless",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 130.0], [300.0, 122.0], [400.0, 115.0], [450.0, 110.0]],
+      "modulus_GPa": [[21.0, 195.0], [100.0, 191.0], [200.0, 183.0], [300.0, 175.0], [400.0, 167.0], [450.0, 163.0]],
+      "yield_MPa": 205.0,
+      "tensile_MPa": 515.0,
+      "density_kg_m3": 8000.0
+    },
+    {
+      "key": "SA-537-CL1",
+      "name": "Carbon steel plate, SA-537 Cl. 1",
+      "specification": "SA-537 Cl. 1",
+      "group": "carbon steel",
+      "allowable_stress_MPa": [[-29.0, 165.0], [100.0, 165.0], [200.0, 165.0], [300.0, 165.0], [343.0, 165.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 345.0,
+      "tensile_MPa": 485.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "SA-203-E",
+      "name": "Nickel steel plate, SA-203 Gr. E (3.5% Ni)",
+      "specification": "SA-203 Gr. E",
+      "group": "low-temperature nickel steel",
+      "allowable_stress_MPa": [[-101.0, 138.0], [-46.0, 138.0], [21.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 138.0]],
+      "modulus_GPa": [[-101.0, 207.0], [21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0]],
+      "yield_MPa": 275.0,
+      "tensile_MPa": 450.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "SA-333-6",
+      "name": "Low-temperature carbon steel pipe, SA-333 Gr. 6",
+      "specification": "SA-333 Gr. 6",
+      "group": "low-temperature carbon steel",
+      "allowable_stress_MPa": [[-46.0, 118.0], [21.0, 118.0], [100.0, 118.0], [200.0, 118.0], [300.0, 118.0], [343.0, 118.0]],
+      "modulus_GPa": [[-46.0, 200.0], [21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 240.0,
+      "tensile_MPa": 415.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "SA-240-316L",
+      "name": "Austenitic stainless steel plate, SA-240 Type 316L",
+      "specification": "SA-240 Type 316L",
+      "group": "austenitic stainless",
+      "allowable_stress_MPa": [[-29.0, 115.0], [100.0, 115.0], [200.0, 110.0], [300.0, 105.0], [400.0, 100.0]],
+      "modulus_GPa": [[21.0, 195.0], [100.0, 191.0], [200.0, 183.0], [300.0, 175.0], [400.0, 167.0]],
+      "yield_MPa": 170.0,
+      "tensile_MPa": 485.0,
+      "density_kg_m3": 8000.0
+    },
+    {
+      "key": "SA-387-11-CL2",
+      "name": "Chromium-molybdenum steel plate, SA-387 Gr. 11 Cl. 2",
+      "specification": "SA-387 Gr. 11 Cl. 2",
+      "group": "1.25Cr-0.5Mo steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 138.0], [343.0, 138.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 310.0,
+      "tensile_MPa": 520.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "SA-350-LF2",
+      "name": "Carbon steel forging, SA-350 Gr. LF2",
+      "specification": "SA-350 Gr. LF2",
+      "group": "low-temperature carbon steel forging",
+      "allowable_stress_MPa": [[-46.0, 138.0], [21.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 138.0], [343.0, 138.0]],
+      "modulus_GPa": [[-46.0, 200.0], [21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 248.0,
+      "tensile_MPa": 485.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "IS-2002-Gr-1",
+      "name": "IS 2002:1962 Grade 1 boiler/pressure-vessel plate (demonstration)",
+      "specification": "IS 2002:1962 Gr. 1",
+      "group": "hot rolled carbon steel",
+      "allowable_stress_MPa": [[-29.0, 118.0], [100.0, 118.0], [200.0, 118.0], [300.0, 108.0], [343.0, 100.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 220.0,
+      "tensile_MPa": 410.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "IS-2002-Gr-2A",
+      "name": "IS 2002:1962 Grade 2A boiler/pressure-vessel plate (demonstration)",
+      "specification": "IS 2002:1962 Gr. 2A",
+      "group": "hot rolled carbon steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 128.0], [343.0, 120.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 240.0,
+      "tensile_MPa": 440.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "IS-2002-Gr-2B",
+      "name": "IS 2002:1962 Grade 2B boiler/pressure-vessel plate (demonstration)",
+      "specification": "IS 2002:1962 Gr. 2B",
+      "group": "hot rolled carbon steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 130.0], [343.0, 122.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 260.0,
+      "tensile_MPa": 460.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "IS-2041-Gr-20Mo55",
+      "name": "IS 2041:1962 Grade 20 Mo 55 chromium-molybdenum plate (demonstration)",
+      "specification": "IS 2041:1962 Gr. 20 Mo 55",
+      "group": "Cr-Mo steel (0.5Mo)",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 130.0], [400.0, 122.0], [450.0, 115.0]],
+      "modulus_GPa": [[21.0, 205.0], [200.0, 196.0], [300.0, 190.0], [400.0, 183.0], [450.0, 178.0]],
+      "yield_MPa": 240.0,
+      "tensile_MPa": 440.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "IS-2041-Gr-20Mn2",
+      "name": "IS 2041:1962 Grade 20 Mn 2 manganese plate (demonstration)",
+      "specification": "IS 2041:1962 Gr. 20 Mn 2",
+      "group": "carbon-manganese steel",
+      "allowable_stress_MPa": [[-29.0, 150.0], [100.0, 150.0], [200.0, 150.0], [300.0, 140.0], [343.0, 132.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 300.0,
+      "tensile_MPa": 500.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "IS-1570-Gr-15Cr90Mo55",
+      "name": "IS 1570:1961 Grade 15 Cr 90 Mo 55 low-chrome alloy plate (demonstration)",
+      "specification": "IS 1570:1961 Gr. 15 Cr 90 Mo 55",
+      "group": "2.25Cr-1Mo steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 138.0], [400.0, 130.0], [500.0, 110.0], [550.0, 90.0]],
+      "modulus_GPa": [[21.0, 205.0], [200.0, 196.0], [300.0, 190.0], [400.0, 183.0], [500.0, 175.0], [550.0, 170.0]],
+      "yield_MPa": 310.0,
+      "tensile_MPa": 515.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "IS-1570-Gr-C15Mn75",
+      "name": "IS 1570:1961 Grade C 15 Mn 75 carbon-manganese plate (demonstration)",
+      "specification": "IS 1570:1961 Gr. C 15 Mn 75",
+      "group": "carbon-manganese steel",
+      "allowable_stress_MPa": [[-29.0, 150.0], [100.0, 150.0], [200.0, 150.0], [300.0, 140.0], [400.0, 132.0], [450.0, 125.0]],
+      "modulus_GPa": [[21.0, 200.0], [200.0, 196.0], [300.0, 190.0], [400.0, 183.0], [450.0, 178.0]],
+      "yield_MPa": 300.0,
+      "tensile_MPa": 500.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "HR-CARBON-STEEL",
+      "name": "Hot rolled carbon steel (generic, demonstration)",
+      "specification": "Hot rolled carbon steel",
+      "group": "hot rolled carbon steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 130.0], [343.0, 122.0]],
+      "modulus_GPa": [[21.0, 200.0], [100.0, 198.0], [200.0, 193.0], [300.0, 187.0], [343.0, 184.0]],
+      "yield_MPa": 260.0,
+      "tensile_MPa": 485.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "5Cr-Mo-STEEL",
+      "name": "5% Cr Mo steel (generic, demonstration)",
+      "specification": "5Cr Mo steel",
+      "group": "5Cr-0.5Mo steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 138.0], [300.0, 130.0], [400.0, 120.0], [500.0, 95.0], [550.0, 75.0]],
+      "modulus_GPa": [[21.0, 205.0], [200.0, 196.0], [300.0, 190.0], [400.0, 183.0], [500.0, 175.0], [550.0, 170.0]],
+      "yield_MPa": 310.0,
+      "tensile_MPa": 515.0,
+      "density_kg_m3": 7850.0
+    },
+    {
+      "key": "11.8Cr-Ni-STEEL",
+      "name": "11.8% Cr Ni steel (generic, demonstration)",
+      "specification": "11.8Cr Ni steel",
+      "group": "Cr-Ni steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 130.0], [300.0, 125.0], [400.0, 118.0], [500.0, 100.0], [550.0, 85.0]],
+      "modulus_GPa": [[21.0, 200.0], [200.0, 190.0], [300.0, 185.0], [400.0, 180.0], [500.0, 170.0], [550.0, 165.0]],
+      "yield_MPa": 300.0,
+      "tensile_MPa": 500.0,
+      "density_kg_m3": 7750.0
+    },
+    {
+      "key": "13Cr-Ni-STEEL",
+      "name": "13% Cr Ni steel (generic, demonstration)",
+      "specification": "13Cr Ni steel",
+      "group": "Cr-Ni steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 130.0], [300.0, 122.0], [400.0, 115.0], [500.0, 95.0], [550.0, 80.0]],
+      "modulus_GPa": [[21.0, 200.0], [200.0, 190.0], [300.0, 185.0], [400.0, 180.0], [500.0, 170.0], [550.0, 165.0]],
+      "yield_MPa": 275.0,
+      "tensile_MPa": 485.0,
+      "density_kg_m3": 7750.0
+    },
+    {
+      "key": "18Cr-2Ni-STEEL",
+      "name": "18 Cr 2 Ni steel (generic, demonstration)",
+      "specification": "18Cr 2Ni steel",
+      "group": "Cr-Ni steel",
+      "allowable_stress_MPa": [[-29.0, 138.0], [100.0, 138.0], [200.0, 130.0], [300.0, 122.0], [400.0, 115.0], [450.0, 110.0]],
+      "modulus_GPa": [[21.0, 200.0], [200.0, 190.0], [300.0, 185.0], [400.0, 180.0], [450.0, 177.0]],
+      "yield_MPa": 275.0,
+      "tensile_MPa": 485.0,
+      "density_kg_m3": 7750.0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Demo Piping",
+  "schema_version": 1,
+  "equipment": [
+    {
+      "id": "L-101",
+      "family": "piping",
+      "label": "6NPS discharge line",
+      "inputs": {
+        "tag": "L-101",
+        "outside_diameter_mm": 168.3,
+        "design_pressure_mpa": 1.5,
+        "design_temperature_c": 150,
+        "material_key": "SA-106-B",
+        "corrosion_allowance_mm": 1.0,
+        "weld_joint_factor": 1.0,
+        "y_factor": 0.4,
+        "mill_tolerance_pct": 12.5,
+        "provided_wall_thickness_mm": 7.11
+      }
+    }
+  ]
+}

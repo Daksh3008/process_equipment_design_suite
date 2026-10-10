@@ -1,0 +1,32 @@
+{
+  "name": "Vessel with load cases (CORE-7)",
+  "schema_version": 1,
+  "equipment": [
+    {
+      "id": "V-201",
+      "family": "pressure_vessel",
+      "inputs": {
+        "tag": "V-201",
+        "orientation": "vertical",
+        "inside_diameter_mm": 2000.0,
+        "tangent_to_tangent_mm": 4000.0,
+        "material_key": "SA-516-70",
+        "head_material_key": "SA-516-70",
+        "head_type": "ellipsoidal",
+        "design_pressure_mpa": 1.0,
+        "design_temperature_c": 150.0,
+        "corrosion_allowance_mm": 3.0,
+        "mill_undertolerance_mm": 0.3,
+        "joint_type": "1",
+        "radiography": "full",
+        "provided_shell_thickness_mm": 16.0,
+        "provided_head_thickness_mm": 16.0,
+        "load_cases": [
+          {"name": "operating", "kind": "operating", "pressure_mpa": 1.2, "temperature_c": 150.0},
+          {"name": "startup", "kind": "unused", "pressure_mpa": 0.8, "temperature_c": 40.0},
+          {"name": "hydro", "kind": "test", "pressure_mpa": 2.0, "temperature_c": 20.0}
+        ]
+      }
+    }
+  ]
+}

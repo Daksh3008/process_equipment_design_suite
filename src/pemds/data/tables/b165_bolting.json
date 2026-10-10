@@ -1,0 +1,32 @@
+{
+  "provenance": {
+    "source": "ASME B16.5 (pipe flanges and flanged fittings), bolting dimensions",
+    "edition": "2020",
+    "clause": "Bolting dimensions and materials",
+    "licence": "Minimal demonstration values transcribed for software testing only; the standard table is not reproduced. Values must be replaced from the licensed edition before any production use.",
+    "transcribed_on": "2026-10-09",
+    "checked_by": "UNVERIFIED - demonstration set pending transcription from licensed B16.5",
+    "source_tag": "S3"
+  },
+  "units": {"length": "mm", "area": "mm^2"},
+  "bolting": [
+    {"nps": "1/2", "pressure_class": 150, "bolt_count": 4, "bolt_diameter_mm": 12.7, "bolt_tensile_area_mm2": 91.6, "bolt_material": "SA-193-B7"},
+    {"nps": "1/2", "pressure_class": 300, "bolt_count": 4, "bolt_diameter_mm": 12.7, "bolt_tensile_area_mm2": 91.6, "bolt_material": "SA-193-B7"},
+    {"nps": "1/2", "pressure_class": 600, "bolt_count": 4, "bolt_diameter_mm": 12.7, "bolt_tensile_area_mm2": 91.6, "bolt_material": "SA-193-B7"},
+    {"nps": "1", "pressure_class": 150, "bolt_count": 4, "bolt_diameter_mm": 12.7, "bolt_tensile_area_mm2": 91.6, "bolt_material": "SA-193-B7"},
+    {"nps": "1", "pressure_class": 300, "bolt_count": 4, "bolt_diameter_mm": 15.875, "bolt_tensile_area_mm2": 145.8, "bolt_material": "SA-193-B7"},
+    {"nps": "1", "pressure_class": 600, "bolt_count": 4, "bolt_diameter_mm": 15.875, "bolt_tensile_area_mm2": 145.8, "bolt_material": "SA-193-B7"},
+    {"nps": "2", "pressure_class": 150, "bolt_count": 4, "bolt_diameter_mm": 15.875, "bolt_tensile_area_mm2": 145.8, "bolt_material": "SA-193-B7"},
+    {"nps": "2", "pressure_class": 300, "bolt_count": 8, "bolt_diameter_mm": 15.875, "bolt_tensile_area_mm2": 145.8, "bolt_material": "SA-193-B7"},
+    {"nps": "2", "pressure_class": 600, "bolt_count": 8, "bolt_diameter_mm": 15.875, "bolt_tensile_area_mm2": 145.8, "bolt_material": "SA-193-B7"},
+    {"nps": "3", "pressure_class": 150, "bolt_count": 4, "bolt_diameter_mm": 15.875, "bolt_tensile_area_mm2": 145.8, "bolt_material": "SA-193-B7"},
+    {"nps": "3", "pressure_class": 300, "bolt_count": 8, "bolt_diameter_mm": 19.05, "bolt_tensile_area_mm2": 215.8, "bolt_material": "SA-193-B7"},
+    {"nps": "3", "pressure_class": 600, "bolt_count": 8, "bolt_diameter_mm": 19.05, "bolt_tensile_area_mm2": 215.8, "bolt_material": "SA-193-B7"},
+    {"nps": "4", "pressure_class": 150, "bolt_count": 8, "bolt_diameter_mm": 15.875, "bolt_tensile_area_mm2": 145.8, "bolt_material": "SA-193-B7"},
+    {"nps": "4", "pressure_class": 300, "bolt_count": 8, "bolt_diameter_mm": 19.05, "bolt_tensile_area_mm2": 215.8, "bolt_material": "SA-193-B7"},
+    {"nps": "4", "pressure_class": 600, "bolt_count": 8, "bolt_diameter_mm": 22.225, "bolt_tensile_area_mm2": 297.9, "bolt_material": "SA-193-B7"},
+    {"nps": "6", "pressure_class": 150, "bolt_count": 8, "bolt_diameter_mm": 19.05, "bolt_tensile_area_mm2": 215.8, "bolt_material": "SA-193-B7"},
+    {"nps": "6", "pressure_class": 300, "bolt_count": 12, "bolt_diameter_mm": 19.05, "bolt_tensile_area_mm2": 215.8, "bolt_material": "SA-193-B7"},
+    {"nps": "6", "pressure_class": 600, "bolt_count": 12, "bolt_diameter_mm": 22.225, "bolt_tensile_area_mm2": 297.9, "bolt_material": "SA-193-B7"}
+  ]
+}

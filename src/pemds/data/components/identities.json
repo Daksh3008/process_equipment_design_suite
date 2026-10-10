@@ -1,0 +1,1219 @@
+{
+  "provenance": {
+    "source": "CoolProp fluid metadata (built on NIST Chemistry WebBook and REFPROP)",
+    "edition": "6.8.0",
+    "clause": "fluid identity metadata (name, CAS, formula, molar mass)",
+    "licence": "CoolProp is MIT-licensed; NIST Chemistry WebBook data is a US Government work. Identity metadata only; no normative standard content is reproduced.",
+    "transcribed_on": "2026-10-09",
+    "checked_by": "UNVERIFIED - CoolProp auto-generated snapshot; identity metadata has not been independently reviewed against NIST WebBook",
+    "source_tag": "S22"
+  },
+  "components": [
+    {
+      "key": "1-Butene",
+      "name": "1-Butene",
+      "cas": "106-98-9",
+      "formula": "C4H8",
+      "aliases": [
+        "1Butene",
+        "Butene"
+      ],
+      "molar_mass_kg_mol": 0.05610631999999999
+    },
+    {
+      "key": "Acetone",
+      "name": "Acetone",
+      "cas": "67-64-1",
+      "formula": "C3H6O",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.05807914
+    },
+    {
+      "key": "Air",
+      "name": "Air",
+      "cas": "AIR.PPF",
+      "formula": "N/A",
+      "aliases": [
+        "R729"
+      ],
+      "molar_mass_kg_mol": 0.02896546
+    },
+    {
+      "key": "Ammonia",
+      "name": "Ammonia",
+      "cas": "7664-41-7",
+      "formula": "H3N",
+      "aliases": [
+        "NH3",
+        "R717"
+      ],
+      "molar_mass_kg_mol": 0.01703052
+    },
+    {
+      "key": "Argon",
+      "name": "Argon",
+      "cas": "7440-37-1",
+      "formula": "Ar",
+      "aliases": [
+        "R740",
+        "Ar"
+      ],
+      "molar_mass_kg_mol": 0.039948
+    },
+    {
+      "key": "Benzene",
+      "name": "Benzene",
+      "cas": "71-43-2",
+      "formula": "C6H6",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.07811180000000001
+    },
+    {
+      "key": "CarbonDioxide",
+      "name": "CarbonDioxide",
+      "cas": "124-38-9",
+      "formula": "CO2",
+      "aliases": [
+        "R744",
+        "co2"
+      ],
+      "molar_mass_kg_mol": 0.0440098
+    },
+    {
+      "key": "CarbonMonoxide",
+      "name": "CarbonMonoxide",
+      "cas": "630-08-0",
+      "formula": "CO",
+      "aliases": [
+        "CO"
+      ],
+      "molar_mass_kg_mol": 0.0280101
+    },
+    {
+      "key": "CarbonylSulfide",
+      "name": "CarbonylSulfide",
+      "cas": "463-58-1",
+      "formula": "COS",
+      "aliases": [
+        "COS"
+      ],
+      "molar_mass_kg_mol": 0.0600751
+    },
+    {
+      "key": "cis-2-Butene",
+      "name": "cis-2-Butene",
+      "cas": "590-18-1",
+      "formula": "C4H8",
+      "aliases": [
+        "C2BUTENE"
+      ],
+      "molar_mass_kg_mol": 0.05610631999999999
+    },
+    {
+      "key": "CycloHexane",
+      "name": "CycloHexane",
+      "cas": "110-82-7",
+      "formula": "C6H12",
+      "aliases": [
+        "CYCLOHEX"
+      ],
+      "molar_mass_kg_mol": 0.08415948000000001
+    },
+    {
+      "key": "Cyclopentane",
+      "name": "Cyclopentane",
+      "cas": "287-92-3",
+      "formula": "C5H10",
+      "aliases": [
+        "CYCLOPEN"
+      ],
+      "molar_mass_kg_mol": 0.07013290000000001
+    },
+    {
+      "key": "CycloPropane",
+      "name": "CycloPropane",
+      "cas": "75-19-4",
+      "formula": "C3H6",
+      "aliases": [
+        "CYCLOPRO"
+      ],
+      "molar_mass_kg_mol": 0.042081
+    },
+    {
+      "key": "D4",
+      "name": "D4",
+      "cas": "556-67-2",
+      "formula": "C8H24O4Si4",
+      "aliases": [
+        "Octamethylcyclotetrasiloxane"
+      ],
+      "molar_mass_kg_mol": 0.29661576
+    },
+    {
+      "key": "D5",
+      "name": "D5",
+      "cas": "541-02-6",
+      "formula": "C10H30O5Si5",
+      "aliases": [
+        "Decamethylcyclopentasiloxane"
+      ],
+      "molar_mass_kg_mol": 0.3707697
+    },
+    {
+      "key": "D6",
+      "name": "D6",
+      "cas": "540-97-6",
+      "formula": "C12H36O6Si6",
+      "aliases": [
+        "Dodecamethylcyclohexasiloxane"
+      ],
+      "molar_mass_kg_mol": 0.444924
+    },
+    {
+      "key": "Deuterium",
+      "name": "Deuterium",
+      "cas": "7782-39-0",
+      "formula": "D2",
+      "aliases": [
+        "D2"
+      ],
+      "molar_mass_kg_mol": 0.0040282
+    },
+    {
+      "key": "Dichloroethane",
+      "name": "Dichloroethane",
+      "cas": "107-06-2",
+      "formula": "C2Cl2H4",
+      "aliases": [
+        "1",
+        "2-dichloroethane"
+      ],
+      "molar_mass_kg_mol": 0.098959
+    },
+    {
+      "key": "DiethylEther",
+      "name": "DiethylEther",
+      "cas": "60-29-7",
+      "formula": "C4H10O",
+      "aliases": [
+        "DEE"
+      ],
+      "molar_mass_kg_mol": 0.0741216
+    },
+    {
+      "key": "DimethylCarbonate",
+      "name": "DimethylCarbonate",
+      "cas": "616-38-6",
+      "formula": "C3H6O3",
+      "aliases": [
+        "DMC"
+      ],
+      "molar_mass_kg_mol": 0.0900779
+    },
+    {
+      "key": "DimethylEther",
+      "name": "DimethylEther",
+      "cas": "115-10-6",
+      "formula": "C2H6O",
+      "aliases": [
+        "DME"
+      ],
+      "molar_mass_kg_mol": 0.04606844
+    },
+    {
+      "key": "Ethane",
+      "name": "Ethane",
+      "cas": "74-84-0",
+      "formula": "C2H6",
+      "aliases": [
+        "R170",
+        "n-C2H6"
+      ],
+      "molar_mass_kg_mol": 0.03006904
+    },
+    {
+      "key": "Ethanol",
+      "name": "Ethanol",
+      "cas": "64-17-5",
+      "formula": "C2H6O",
+      "aliases": [
+        "C2H6O"
+      ],
+      "molar_mass_kg_mol": 0.04606844
+    },
+    {
+      "key": "EthylBenzene",
+      "name": "EthylBenzene",
+      "cas": "100-41-4",
+      "formula": "C8H10",
+      "aliases": [
+        "EBENZENE"
+      ],
+      "molar_mass_kg_mol": 0.106165
+    },
+    {
+      "key": "Ethylene",
+      "name": "Ethylene",
+      "cas": "74-85-1",
+      "formula": "C2H4",
+      "aliases": [
+        "R1150"
+      ],
+      "molar_mass_kg_mol": 0.02805376
+    },
+    {
+      "key": "EthyleneOxide",
+      "name": "EthyleneOxide",
+      "cas": "75-21-8",
+      "formula": "C2H4O",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.04405256
+    },
+    {
+      "key": "Fluorine",
+      "name": "Fluorine",
+      "cas": "7782-41-4",
+      "formula": "F2",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.03799681000000001
+    },
+    {
+      "key": "HeavyWater",
+      "name": "HeavyWater",
+      "cas": "7789-20-0",
+      "formula": "D2O",
+      "aliases": [
+        "D2O"
+      ],
+      "molar_mass_kg_mol": 0.020027508
+    },
+    {
+      "key": "Helium",
+      "name": "Helium",
+      "cas": "7440-59-7",
+      "formula": "He",
+      "aliases": [
+        "He",
+        "R704"
+      ],
+      "molar_mass_kg_mol": 0.004002602
+    },
+    {
+      "key": "HFE143m",
+      "name": "HFE143m",
+      "cas": "421-14-7",
+      "formula": "C2F3H3O",
+      "aliases": [
+        "HFE-143m",
+        "RE143A"
+      ],
+      "molar_mass_kg_mol": 0.10004
+    },
+    {
+      "key": "Hydrogen",
+      "name": "Hydrogen",
+      "cas": "1333-74-0",
+      "formula": "H2",
+      "aliases": [
+        "H2",
+        "R702"
+      ],
+      "molar_mass_kg_mol": 0.00201588
+    },
+    {
+      "key": "HydrogenChloride",
+      "name": "HydrogenChloride",
+      "cas": "7647-01-0",
+      "formula": "ClH",
+      "aliases": [
+        "HCl"
+      ],
+      "molar_mass_kg_mol": 0.0364609
+    },
+    {
+      "key": "HydrogenSulfide",
+      "name": "HydrogenSulfide",
+      "cas": "7783-06-4",
+      "formula": "H2S",
+      "aliases": [
+        "H2S"
+      ],
+      "molar_mass_kg_mol": 0.03408088
+    },
+    {
+      "key": "IsoButane",
+      "name": "IsoButane",
+      "cas": "75-28-5",
+      "formula": "C4H10",
+      "aliases": [
+        "R600A",
+        "ISOBUTAN"
+      ],
+      "molar_mass_kg_mol": 0.0581222
+    },
+    {
+      "key": "IsoButene",
+      "name": "IsoButene",
+      "cas": "115-11-7",
+      "formula": "C4H8",
+      "aliases": [
+        "IBUTENE"
+      ],
+      "molar_mass_kg_mol": 0.05610631999999999
+    },
+    {
+      "key": "Isohexane",
+      "name": "Isohexane",
+      "cas": "107-83-5",
+      "formula": "C6H14",
+      "aliases": [
+        "ihexane"
+      ],
+      "molar_mass_kg_mol": 0.08617535999999999
+    },
+    {
+      "key": "Isopentane",
+      "name": "Isopentane",
+      "cas": "78-78-4",
+      "formula": "C5H12",
+      "aliases": [
+        "ipentane",
+        "R601a"
+      ],
+      "molar_mass_kg_mol": 0.07214878
+    },
+    {
+      "key": "Krypton",
+      "name": "Krypton",
+      "cas": "7439-90-9",
+      "formula": "Kr",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.083798
+    },
+    {
+      "key": "m-Xylene",
+      "name": "m-Xylene",
+      "cas": "108-38-3",
+      "formula": "C8H10",
+      "aliases": [
+        "mXylene",
+        "MC8H10"
+      ],
+      "molar_mass_kg_mol": 0.106165
+    },
+    {
+      "key": "MD2M",
+      "name": "MD2M",
+      "cas": "141-62-8",
+      "formula": "C10H30O3Si4",
+      "aliases": [
+        "Decamethyltetrasiloxane"
+      ],
+      "molar_mass_kg_mol": 0.3106854
+    },
+    {
+      "key": "MD3M",
+      "name": "MD3M",
+      "cas": "141-63-9",
+      "formula": "C12H36O4Si5",
+      "aliases": [
+        "Dodecamethylpentasiloxane"
+      ],
+      "molar_mass_kg_mol": 0.384839
+    },
+    {
+      "key": "MD4M",
+      "name": "MD4M",
+      "cas": "107-52-8",
+      "formula": "C14H42O5Si6",
+      "aliases": [
+        "Tetradecamethylhexasiloxane"
+      ],
+      "molar_mass_kg_mol": 0.45899328
+    },
+    {
+      "key": "MDM",
+      "name": "MDM",
+      "cas": "107-51-7",
+      "formula": "C8H24O2Si3",
+      "aliases": [
+        "Octamethyltrisiloxane"
+      ],
+      "molar_mass_kg_mol": 0.23653146
+    },
+    {
+      "key": "Methane",
+      "name": "Methane",
+      "cas": "74-82-8",
+      "formula": "CH4",
+      "aliases": [
+        "CH4",
+        "R50",
+        "n-C1H4"
+      ],
+      "molar_mass_kg_mol": 0.0160428
+    },
+    {
+      "key": "Methanol",
+      "name": "Methanol",
+      "cas": "67-56-1",
+      "formula": "CH4O",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.03204216
+    },
+    {
+      "key": "MethylLinoleate",
+      "name": "MethylLinoleate",
+      "cas": "112-63-0",
+      "formula": "C19H34O2",
+      "aliases": [
+        "MLINOLEA"
+      ],
+      "molar_mass_kg_mol": 0.29447206
+    },
+    {
+      "key": "MethylLinolenate",
+      "name": "MethylLinolenate",
+      "cas": "301-00-8",
+      "formula": "C19H32O2",
+      "aliases": [
+        "MLINOLEN"
+      ],
+      "molar_mass_kg_mol": 0.29245618
+    },
+    {
+      "key": "MethylOleate",
+      "name": "MethylOleate",
+      "cas": "112-62-9",
+      "formula": "C19H36O2",
+      "aliases": [
+        "MOLEATE"
+      ],
+      "molar_mass_kg_mol": 0.29648794
+    },
+    {
+      "key": "MethylPalmitate",
+      "name": "MethylPalmitate",
+      "cas": "112-39-0",
+      "formula": "C17H34O2",
+      "aliases": [
+        "MPALMITA"
+      ],
+      "molar_mass_kg_mol": 0.27045066
+    },
+    {
+      "key": "MethylStearate",
+      "name": "MethylStearate",
+      "cas": "112-61-8",
+      "formula": "C19H38O2",
+      "aliases": [
+        "MSTEARAT"
+      ],
+      "molar_mass_kg_mol": 0.29850382
+    },
+    {
+      "key": "MM",
+      "name": "MM",
+      "cas": "107-46-0",
+      "formula": "C6H18OSi2",
+      "aliases": [
+        "Hexamethyldisiloxane"
+      ],
+      "molar_mass_kg_mol": 0.16237752
+    },
+    {
+      "key": "n-Butane",
+      "name": "n-Butane",
+      "cas": "106-97-8",
+      "formula": "C4H10",
+      "aliases": [
+        "nButane",
+        "butane",
+        "R600",
+        "NC4H10",
+        "n-C4H10"
+      ],
+      "molar_mass_kg_mol": 0.0581222
+    },
+    {
+      "key": "n-Decane",
+      "name": "n-Decane",
+      "cas": "124-18-5",
+      "formula": "C10H22",
+      "aliases": [
+        "Decane",
+        "NC10H22",
+        "n-C10H22"
+      ],
+      "molar_mass_kg_mol": 0.14228168
+    },
+    {
+      "key": "n-Dodecane",
+      "name": "n-Dodecane",
+      "cas": "112-40-3",
+      "formula": "C12H26",
+      "aliases": [
+        "nDodecane",
+        "Dodecane",
+        "C12",
+        "NC12H26",
+        "n-C12H26"
+      ],
+      "molar_mass_kg_mol": 0.17033484
+    },
+    {
+      "key": "n-Heptane",
+      "name": "n-Heptane",
+      "cas": "142-82-5",
+      "formula": "C7H16",
+      "aliases": [
+        "nHeptane",
+        "Heptane",
+        "NC7H16",
+        "n-C7H16"
+      ],
+      "molar_mass_kg_mol": 0.100202
+    },
+    {
+      "key": "n-Hexane",
+      "name": "n-Hexane",
+      "cas": "110-54-3",
+      "formula": "C6H14",
+      "aliases": [
+        "nHexane",
+        "Hexane",
+        "NC6H14",
+        "n-C6H14"
+      ],
+      "molar_mass_kg_mol": 0.08617535999999999
+    },
+    {
+      "key": "n-Nonane",
+      "name": "n-Nonane",
+      "cas": "111-84-2",
+      "formula": "C9H20",
+      "aliases": [
+        "nonane",
+        "NC9H20",
+        "n-C9H20"
+      ],
+      "molar_mass_kg_mol": 0.1282551
+    },
+    {
+      "key": "n-Octane",
+      "name": "n-Octane",
+      "cas": "111-65-9",
+      "formula": "C8H18",
+      "aliases": [
+        "nOctane",
+        "Octane",
+        "NC8H18",
+        "n-C8H18"
+      ],
+      "molar_mass_kg_mol": 0.114229
+    },
+    {
+      "key": "n-Pentane",
+      "name": "n-Pentane",
+      "cas": "109-66-0",
+      "formula": "C5H12",
+      "aliases": [
+        "nPentane",
+        "Pentane",
+        "R601",
+        "NC5H12",
+        "n-C5H12"
+      ],
+      "molar_mass_kg_mol": 0.07214878
+    },
+    {
+      "key": "n-Propane",
+      "name": "n-Propane",
+      "cas": "74-98-6",
+      "formula": "C3H8",
+      "aliases": [
+        "Propane",
+        "R290",
+        "C3H8",
+        "NC3H8",
+        "n-C3H8"
+      ],
+      "molar_mass_kg_mol": 0.04409562
+    },
+    {
+      "key": "n-Undecane",
+      "name": "n-Undecane",
+      "cas": "1120-21-4",
+      "formula": "C11H24",
+      "aliases": [
+        "Undecane",
+        "C11",
+        "NC11H24",
+        "n-C11H24"
+      ],
+      "molar_mass_kg_mol": 0.15630826
+    },
+    {
+      "key": "Neon",
+      "name": "Neon",
+      "cas": "7440-01-9",
+      "formula": "Ne",
+      "aliases": [
+        "R720"
+      ],
+      "molar_mass_kg_mol": 0.020179
+    },
+    {
+      "key": "Neopentane",
+      "name": "Neopentane",
+      "cas": "463-82-1",
+      "formula": "C5H12",
+      "aliases": [
+        "neopentn"
+      ],
+      "molar_mass_kg_mol": 0.07214878
+    },
+    {
+      "key": "Nitrogen",
+      "name": "Nitrogen",
+      "cas": "7727-37-9",
+      "formula": "N2",
+      "aliases": [
+        "N2",
+        "R728"
+      ],
+      "molar_mass_kg_mol": 0.02801348
+    },
+    {
+      "key": "NitrousOxide",
+      "name": "NitrousOxide",
+      "cas": "10024-97-2",
+      "formula": "N2O",
+      "aliases": [
+        "N2O"
+      ],
+      "molar_mass_kg_mol": 0.0440128
+    },
+    {
+      "key": "Novec649",
+      "name": "Novec649",
+      "cas": "756-13-8",
+      "formula": "C6F12O",
+      "aliases": [
+        "Novec1230"
+      ],
+      "molar_mass_kg_mol": 0.3160438
+    },
+    {
+      "key": "o-Xylene",
+      "name": "o-Xylene",
+      "cas": "95-47-6",
+      "formula": "C8H10",
+      "aliases": [
+        "oXylene",
+        "OC8H10"
+      ],
+      "molar_mass_kg_mol": 0.106165
+    },
+    {
+      "key": "OrthoDeuterium",
+      "name": "OrthoDeuterium",
+      "cas": "7782-39-0o",
+      "formula": "N/A",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.0040282
+    },
+    {
+      "key": "OrthoHydrogen",
+      "name": "OrthoHydrogen",
+      "cas": "1333-74-0o",
+      "formula": "N/A",
+      "aliases": [
+        "ORTHOHYD"
+      ],
+      "molar_mass_kg_mol": 0.00201594
+    },
+    {
+      "key": "Oxygen",
+      "name": "Oxygen",
+      "cas": "7782-44-7",
+      "formula": "O2",
+      "aliases": [
+        "O2",
+        "R732"
+      ],
+      "molar_mass_kg_mol": 0.0319988
+    },
+    {
+      "key": "p-Xylene",
+      "name": "p-Xylene",
+      "cas": "106-42-3",
+      "formula": "C8H10",
+      "aliases": [
+        "pXylene",
+        "PC8H10"
+      ],
+      "molar_mass_kg_mol": 0.106165
+    },
+    {
+      "key": "ParaDeuterium",
+      "name": "ParaDeuterium",
+      "cas": "7782-39-0p",
+      "formula": "N/A",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.0040282
+    },
+    {
+      "key": "ParaHydrogen",
+      "name": "ParaHydrogen",
+      "cas": "1333-74-0p",
+      "formula": "N/A",
+      "aliases": [
+        "PARAHYD"
+      ],
+      "molar_mass_kg_mol": 0.00201588
+    },
+    {
+      "key": "Propylene",
+      "name": "Propylene",
+      "cas": "115-07-1",
+      "formula": "C3H6",
+      "aliases": [
+        "PROPYLEN",
+        "R1270"
+      ],
+      "molar_mass_kg_mol": 0.04207974
+    },
+    {
+      "key": "Propyne",
+      "name": "Propyne",
+      "cas": "74-99-7",
+      "formula": "C3H4",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.04006000000000001
+    },
+    {
+      "key": "R11",
+      "name": "R11",
+      "cas": "75-69-4",
+      "formula": "CCl3F",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.137368
+    },
+    {
+      "key": "R113",
+      "name": "R113",
+      "cas": "76-13-1",
+      "formula": "C2Cl3F3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.187375
+    },
+    {
+      "key": "R114",
+      "name": "R114",
+      "cas": "76-14-2",
+      "formula": "C2Cl2F4",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.170921
+    },
+    {
+      "key": "R115",
+      "name": "R115",
+      "cas": "76-15-3",
+      "formula": "C2F5Cl",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.154466416
+    },
+    {
+      "key": "R116",
+      "name": "R116",
+      "cas": "76-16-4",
+      "formula": "C2F6",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.13801182
+    },
+    {
+      "key": "R12",
+      "name": "R12",
+      "cas": "75-71-8",
+      "formula": "CCl2F2",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.120913
+    },
+    {
+      "key": "R123",
+      "name": "R123",
+      "cas": "306-83-2",
+      "formula": "C2Cl2F3H",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.152931
+    },
+    {
+      "key": "R1233zd(E)",
+      "name": "R1233zd(E)",
+      "cas": "102687-65-0",
+      "formula": "C3ClF3H2",
+      "aliases": [
+        "R1233zdE",
+        "R1233ZD"
+      ],
+      "molar_mass_kg_mol": 0.1304944
+    },
+    {
+      "key": "R1234yf",
+      "name": "R1234yf",
+      "cas": "754-12-1",
+      "formula": "C3F4H2",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.1140415928
+    },
+    {
+      "key": "R1234ze(E)",
+      "name": "R1234ze(E)",
+      "cas": "29118-24-9",
+      "formula": "C3F4H2",
+      "aliases": [
+        "R1234ZE",
+        "R1234ZEE"
+      ],
+      "molar_mass_kg_mol": 0.1140415928
+    },
+    {
+      "key": "R1234ze(Z)",
+      "name": "R1234ze(Z)",
+      "cas": "29118-25-0",
+      "formula": "C3F4H2",
+      "aliases": [
+        "R1234ZEZ"
+      ],
+      "molar_mass_kg_mol": 0.1140416
+    },
+    {
+      "key": "R124",
+      "name": "R124",
+      "cas": "2837-89-0",
+      "formula": "C2ClF4H",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.1364762
+    },
+    {
+      "key": "R1243zf",
+      "name": "R1243zf",
+      "cas": "677-21-4",
+      "formula": "C3F3H3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.09605113
+    },
+    {
+      "key": "R125",
+      "name": "R125",
+      "cas": "354-33-6",
+      "formula": "C2F5H",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.1200214
+    },
+    {
+      "key": "R13",
+      "name": "R13",
+      "cas": "75-72-9",
+      "formula": "CClF3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.104459
+    },
+    {
+      "key": "R1336MZZE",
+      "name": "R1336MZZE",
+      "cas": "66711-86-2",
+      "formula": "C4H2F6",
+      "aliases": [
+        "(E)-1",
+        "1",
+        "4",
+        "4-HEXAFLUORO-2-BUTENE",
+        "r1336mzz(e)"
+      ],
+      "molar_mass_kg_mol": 0.1640491
+    },
+    {
+      "key": "R134a",
+      "name": "R134a",
+      "cas": "811-97-2",
+      "formula": "C2F4H2",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.102032
+    },
+    {
+      "key": "R13I1",
+      "name": "R13I1",
+      "cas": "2314-97-8",
+      "formula": "CF3I",
+      "aliases": [
+        "CF3I"
+      ],
+      "molar_mass_kg_mol": 0.1959104
+    },
+    {
+      "key": "R14",
+      "name": "R14",
+      "cas": "75-73-0",
+      "formula": "CF4",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.0880046
+    },
+    {
+      "key": "R141b",
+      "name": "R141b",
+      "cas": "1717-00-6",
+      "formula": "C2Cl2FH3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.11694962
+    },
+    {
+      "key": "R142b",
+      "name": "R142b",
+      "cas": "75-68-3",
+      "formula": "C2ClF2H3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.10049503
+    },
+    {
+      "key": "R143a",
+      "name": "R143a",
+      "cas": "420-46-2",
+      "formula": "C2F3H3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.08404099999999999
+    },
+    {
+      "key": "R152A",
+      "name": "R152A",
+      "cas": "75-37-6",
+      "formula": "C2F2H4",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.066051
+    },
+    {
+      "key": "R161",
+      "name": "R161",
+      "cas": "353-36-6",
+      "formula": "C2FH5",
+      "aliases": [
+        "Fluoroethane"
+      ],
+      "molar_mass_kg_mol": 0.0480595
+    },
+    {
+      "key": "R21",
+      "name": "R21",
+      "cas": "75-43-4",
+      "formula": "CCl2FH",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.1029227
+    },
+    {
+      "key": "R218",
+      "name": "R218",
+      "cas": "76-19-7",
+      "formula": "C3F8",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.18801933
+    },
+    {
+      "key": "R22",
+      "name": "R22",
+      "cas": "75-45-6",
+      "formula": "CClF2H",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.086468
+    },
+    {
+      "key": "R227EA",
+      "name": "R227EA",
+      "cas": "431-89-0",
+      "formula": "C3F7H",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.17002886
+    },
+    {
+      "key": "R23",
+      "name": "R23",
+      "cas": "75-46-7",
+      "formula": "CF3H",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.07001385
+    },
+    {
+      "key": "R236EA",
+      "name": "R236EA",
+      "cas": "431-63-0",
+      "formula": "C3F6H2",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.1520384
+    },
+    {
+      "key": "R236FA",
+      "name": "R236FA",
+      "cas": "690-39-1",
+      "formula": "C3F6H2",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.1520384
+    },
+    {
+      "key": "R245ca",
+      "name": "R245ca",
+      "cas": "679-86-7",
+      "formula": "C3F5H3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.13404794
+    },
+    {
+      "key": "R245fa",
+      "name": "R245fa",
+      "cas": "460-73-1",
+      "formula": "C3F5H3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.13404794
+    },
+    {
+      "key": "R32",
+      "name": "R32",
+      "cas": "75-10-5",
+      "formula": "CF2H2",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.052024
+    },
+    {
+      "key": "R365MFC",
+      "name": "R365MFC",
+      "cas": "406-58-6",
+      "formula": "C4F5H5",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.14807452
+    },
+    {
+      "key": "R40",
+      "name": "R40",
+      "cas": "74-87-3",
+      "formula": "CClH3",
+      "aliases": [
+        "MethylChloride"
+      ],
+      "molar_mass_kg_mol": 0.05048752
+    },
+    {
+      "key": "R404A",
+      "name": "R404A",
+      "cas": "R404A.PPF",
+      "formula": "N/A",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.0976038
+    },
+    {
+      "key": "R407C",
+      "name": "R407C",
+      "cas": "R407C.PPF",
+      "formula": "N/A",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.08620359999999999
+    },
+    {
+      "key": "R41",
+      "name": "R41",
+      "cas": "593-53-3",
+      "formula": "CFH3",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.03403291999999999
+    },
+    {
+      "key": "R410A",
+      "name": "R410A",
+      "cas": "R410A.PPF",
+      "formula": "N/A",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.07258540000000001
+    },
+    {
+      "key": "R507A",
+      "name": "R507A",
+      "cas": "R507A.PPF",
+      "formula": "N/A",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.0988592
+    },
+    {
+      "key": "RC318",
+      "name": "RC318",
+      "cas": "115-25-3",
+      "formula": "C4F8",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.2000312
+    },
+    {
+      "key": "SES36",
+      "name": "SES36",
+      "cas": "SES36.ppf",
+      "formula": "N/A",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.18485
+    },
+    {
+      "key": "SulfurDioxide",
+      "name": "SulfurDioxide",
+      "cas": "7446-09-5",
+      "formula": "O2S",
+      "aliases": [
+        "SO2"
+      ],
+      "molar_mass_kg_mol": 0.0640638
+    },
+    {
+      "key": "SulfurHexafluoride",
+      "name": "SulfurHexafluoride",
+      "cas": "2551-62-4",
+      "formula": "F6S",
+      "aliases": [
+        "SF6"
+      ],
+      "molar_mass_kg_mol": 0.1460554192
+    },
+    {
+      "key": "Toluene",
+      "name": "Toluene",
+      "cas": "108-88-3",
+      "formula": "C7H8",
+      "aliases": [],
+      "molar_mass_kg_mol": 0.09213842
+    },
+    {
+      "key": "trans-2-Butene",
+      "name": "trans-2-Butene",
+      "cas": "624-64-6",
+      "formula": "C4H8",
+      "aliases": [
+        "T2BUTENE"
+      ],
+      "molar_mass_kg_mol": 0.05610631999999999
+    },
+    {
+      "key": "Water",
+      "name": "Water",
+      "cas": "7732-18-5",
+      "formula": "H2O",
+      "aliases": [
+        "H2O",
+        "R718"
+      ],
+      "molar_mass_kg_mol": 0.018015268
+    },
+    {
+      "key": "Xenon",
+      "name": "Xenon",
+      "cas": "7440-63-3",
+      "formula": "Xe",
+      "aliases": [
+        "Xe"
+      ],
+      "molar_mass_kg_mol": 0.131293
+    }
+  ]
+}

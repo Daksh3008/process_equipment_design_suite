@@ -1,0 +1,50 @@
+{
+  "name": "Demo Project",
+  "schema_version": 1,
+  "equipment": [
+    {
+      "id": "V-101",
+      "family": "pressure_vessel",
+      "label": "Vert. separator",
+      "inputs": {
+        "tag": "V-101",
+        "orientation": "vertical",
+        "inside_diameter_mm": 2000,
+        "tangent_to_tangent_mm": 4000,
+        "material_key": "SA-516-70",
+        "head_material_key": "SA-516-70",
+        "head_type": "ellipsoidal",
+        "design_pressure_mpa": 1.0,
+        "design_temperature_c": 150,
+        "corrosion_allowance_mm": 3.0,
+        "mill_undertolerance_mm": 0.3,
+        "joint_type": "1",
+        "radiography": "full",
+        "provided_shell_thickness_mm": 16.0,
+        "provided_head_thickness_mm": 16.0,
+        "support_type": "skirt",
+        "support_height_mm": 1200.0,
+        "nozzles": [
+          {
+            "tag": "N1",
+            "outside_diameter_mm": 219.1,
+            "provided_neck_thickness_mm": 8.18,
+            "projection_mm": 300.0,
+            "elevation_mm": 800.0,
+            "azimuth_deg": 0.0,
+            "service": "process inlet"
+          },
+          {
+            "tag": "N2",
+            "outside_diameter_mm": 168.3,
+            "provided_neck_thickness_mm": 7.11,
+            "projection_mm": 250.0,
+            "elevation_mm": 1800.0,
+            "azimuth_deg": 90.0,
+            "service": "vapour outlet"
+          }
+        ]
+      }
+    }
+  ]
+}

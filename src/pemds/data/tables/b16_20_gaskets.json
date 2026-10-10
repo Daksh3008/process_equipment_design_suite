@@ -1,0 +1,17 @@
+{
+  "provenance": {
+    "source": "ASME B16.20 metallic gaskets with gasket factors from ASME VIII-1 Appendix 2",
+    "edition": "2020",
+    "clause": "Gasket m and y factors",
+    "licence": "Minimal demonstration values transcribed for software testing only; the standard tables are not reproduced. Values must be replaced from the licensed editions before any production use.",
+    "transcribed_on": "2026-10-09",
+    "checked_by": "UNVERIFIED - demonstration set pending transcription from licensed B16.20",
+    "source_tag": "S3"
+  },
+  "units": {"pressure": "MPa", "length": "mm"},
+  "gaskets": [
+    {"gasket_type": "spiral-wound", "description": "spiral-wound metal gasket with flexible graphite filler", "m": 3.0, "y_MPa": 69.0, "thickness_mm": 4.5, "contact_width_mm": 4.5},
+    {"gasket_type": "sheet", "description": "compressed non-asbestos sheet gasket", "m": 2.0, "y_MPa": 11.0, "thickness_mm": 3.0, "contact_width_mm": 19.0},
+    {"gasket_type": "ring-joint", "description": "soft-iron ring-joint gasket", "m": 6.5, "y_MPa": 124.1, "thickness_mm": 6.4, "contact_width_mm": 8.0}
+  ]
+}

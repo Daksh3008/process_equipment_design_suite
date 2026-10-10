@@ -1,0 +1,20 @@
+{
+  "provenance": {
+    "source": "ASME B16.5 (pipe flanges and flanged fittings), pressure-temperature ratings",
+    "edition": "2020",
+    "clause": "Section 2, pressure-temperature ratings",
+    "licence": "Minimal demonstration values transcribed for software testing only; the standard table is not reproduced. Values must be replaced from the licensed edition before any production use.",
+    "transcribed_on": "2026-10-09",
+    "checked_by": "UNVERIFIED - demonstration set pending transcription from licensed B16.5",
+    "source_tag": "S3"
+  },
+  "units": {"pressure": "MPa", "temperature": "degC"},
+  "ratings": [
+    {"material_group": "1.1", "pressure_class": 150, "sizes": ["1/2", "1", "2", "3", "4", "6"], "points_MPa": [[-29.0, 1.96], [38.0, 1.96], [100.0, 1.79], [200.0, 1.59], [300.0, 1.38], [400.0, 1.17]]},
+    {"material_group": "1.1", "pressure_class": 300, "sizes": ["1/2", "1", "2", "3", "4", "6"], "points_MPa": [[-29.0, 5.11], [38.0, 5.11], [100.0, 5.10], [200.0, 4.69], [300.0, 4.21], [400.0, 3.52]]},
+    {"material_group": "1.1", "pressure_class": 600, "sizes": ["1/2", "1", "2", "3", "4", "6"], "points_MPa": [[-29.0, 10.21], [38.0, 10.21], [100.0, 10.20], [200.0, 9.38], [300.0, 8.38], [400.0, 7.00]]},
+    {"material_group": "2.2", "pressure_class": 150, "sizes": ["1/2", "1", "2", "3", "4", "6"], "points_MPa": [[-29.0, 1.90], [38.0, 1.90], [100.0, 1.90], [200.0, 1.62], [300.0, 1.41], [400.0, 1.24]]},
+    {"material_group": "2.2", "pressure_class": 300, "sizes": ["1/2", "1", "2", "3", "4", "6"], "points_MPa": [[-29.0, 4.96], [38.0, 4.96], [100.0, 4.96], [200.0, 4.27], [300.0, 3.62], [400.0, 3.24]]},
+    {"material_group": "2.2", "pressure_class": 600, "sizes": ["1/2", "1", "2", "3", "4", "6"], "points_MPa": [[-29.0, 9.93], [38.0, 9.93], [100.0, 9.93], [200.0, 8.55], [300.0, 7.24], [400.0, 6.55]]}
+  ]
+}

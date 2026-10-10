@@ -1,0 +1,80 @@
+{
+  "provenance": {
+    "source": "PEMDS generic sample pump curves (project-authored demonstration data)",
+    "edition": "v1.0 sample",
+    "clause": "n/a",
+    "licence": "Project-authored synthetic data for demonstration only; contains no vendor or third-party content and must not be used for production pump selection.",
+    "transcribed_on": "2026-10-09",
+    "checked_by": "UNVERIFIED - generic sample curves for demonstration",
+    "source_tag": "S7"
+  },
+  "pumps": [
+    {
+      "model": "PU-SAMPLE-OH1",
+      "type_class": "OH2",
+      "curves": [
+        {
+          "speed_rpm": 3600.0,
+          "points": [
+            {"flow_m3_h": 0.0, "head_m": 100.0, "efficiency_pct": 0.0, "power_kw": 8.0, "npshr_m": 1.8},
+            {"flow_m3_h": 10.0, "head_m": 98.0, "efficiency_pct": 45.0, "power_kw": 12.0, "npshr_m": 2.0},
+            {"flow_m3_h": 20.0, "head_m": 94.0, "efficiency_pct": 62.0, "power_kw": 15.0, "npshr_m": 2.2},
+            {"flow_m3_h": 30.0, "head_m": 88.0, "efficiency_pct": 58.0, "power_kw": 17.0, "npshr_m": 2.6},
+            {"flow_m3_h": 40.0, "head_m": 80.0, "efficiency_pct": 48.0, "power_kw": 19.0, "npshr_m": 3.2}
+          ]
+        }
+      ]
+    },
+    {
+      "model": "PU-SAMPLE-OH2",
+      "type_class": "OH2",
+      "curves": [
+        {
+          "speed_rpm": 3600.0,
+          "points": [
+            {"flow_m3_h": 0.0, "head_m": 80.0, "efficiency_pct": 0.0, "power_kw": 10.0, "npshr_m": 2.0},
+            {"flow_m3_h": 20.0, "head_m": 78.0, "efficiency_pct": 50.0, "power_kw": 18.0, "npshr_m": 2.2},
+            {"flow_m3_h": 40.0, "head_m": 72.0, "efficiency_pct": 68.0, "power_kw": 24.0, "npshr_m": 2.6},
+            {"flow_m3_h": 60.0, "head_m": 63.0, "efficiency_pct": 78.0, "power_kw": 30.0, "npshr_m": 3.0},
+            {"flow_m3_h": 80.0, "head_m": 50.0, "efficiency_pct": 72.0, "power_kw": 33.0, "npshr_m": 4.0},
+            {"flow_m3_h": 100.0, "head_m": 34.0, "efficiency_pct": 58.0, "power_kw": 34.0, "npshr_m": 5.5}
+          ]
+        }
+      ]
+    },
+    {
+      "model": "PU-SAMPLE-BB2",
+      "type_class": "BB2",
+      "curves": [
+        {
+          "speed_rpm": 3600.0,
+          "points": [
+            {"flow_m3_h": 0.0, "head_m": 100.0, "efficiency_pct": 0.0, "power_kw": 20.0, "npshr_m": 3.0},
+            {"flow_m3_h": 50.0, "head_m": 96.0, "efficiency_pct": 55.0, "power_kw": 45.0, "npshr_m": 3.2},
+            {"flow_m3_h": 100.0, "head_m": 88.0, "efficiency_pct": 72.0, "power_kw": 70.0, "npshr_m": 3.8},
+            {"flow_m3_h": 150.0, "head_m": 80.0, "efficiency_pct": 82.0, "power_kw": 95.0, "npshr_m": 4.5},
+            {"flow_m3_h": 200.0, "head_m": 68.0, "efficiency_pct": 78.0, "power_kw": 110.0, "npshr_m": 5.5},
+            {"flow_m3_h": 250.0, "head_m": 52.0, "efficiency_pct": 65.0, "power_kw": 118.0, "npshr_m": 7.0}
+          ]
+        }
+      ]
+    },
+    {
+      "model": "PU-SAMPLE-VS1",
+      "type_class": "VS1",
+      "curves": [
+        {
+          "speed_rpm": 1450.0,
+          "points": [
+            {"flow_m3_h": 0.0, "head_m": 40.0, "efficiency_pct": 0.0, "power_kw": 15.0, "npshr_m": 2.0},
+            {"flow_m3_h": 200.0, "head_m": 38.0, "efficiency_pct": 60.0, "power_kw": 60.0, "npshr_m": 2.5},
+            {"flow_m3_h": 400.0, "head_m": 34.0, "efficiency_pct": 75.0, "power_kw": 90.0, "npshr_m": 3.2},
+            {"flow_m3_h": 500.0, "head_m": 30.0, "efficiency_pct": 82.0, "power_kw": 105.0, "npshr_m": 4.0},
+            {"flow_m3_h": 700.0, "head_m": 22.0, "efficiency_pct": 74.0, "power_kw": 120.0, "npshr_m": 5.5},
+            {"flow_m3_h": 900.0, "head_m": 10.0, "efficiency_pct": 55.0, "power_kw": 125.0, "npshr_m": 7.5}
+          ]
+        }
+      ]
+    }
+  ]
+}

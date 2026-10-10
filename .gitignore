@@ -1,0 +1,19 @@
+# Generated and environment artifacts
+out/
+out_*/
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+*.autosave
+*.tmp
+.venv/
+venv/
